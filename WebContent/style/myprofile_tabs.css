@@ -1,0 +1,95 @@
+/*myprofile tabs*/
+.myprofile_tabs
+{
+	margin: 0 0 -1px 0;
+	padding: 0;
+	width: 100%;
+}
+.myprofile_tabs li
+{
+	list-style-position: inside;
+	float: left;
+	white-space: nowrap;
+	margin-right: 5px;
+	border: 1px #8cd2e3 solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-bottom-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-khtml-border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-khtml-border-bottom-right-radius: 0;	
+	padding: 2% 2%;
+	font-size: 1.3em;
+	background: #ddf2f7;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.myprofile_tabs li.active
+{
+	background: #FFF;
+	border-bottom-color: #FFF;
+}
+.myprofile_tabs li a
+{
+	color: #1aa5c8;
+	font-weight: bold;
+}
+.tab_content {
+	width: 100%;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border: 1px #8cd2e3 solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-top-left-radius: 0;
+    -moz-border-top-left-radius: 0;
+	-webkit-border-top-left-radius: 0;
+	-khtml-border-top-left-radius: 0;
+}
+.myprofile_tabs:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;	
+}
+@media screen and (max-width:873px)
+{
+	.myprofile_tabs li {
+		padding: 2% 0.5%;
+	}
+}
+@media screen and (max-width:832px)
+{
+	.myprofile_tabs li
+	{
+		width: 100%;
+		border-radius: 0px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		-khtml-border-radius: 0px;
+		padding: 2% 4%;
+		border-bottom: none;
+	}
+	.myprofile_tabs li:last-child
+	{
+	    border-bottom: 1px #8cd2e3 solid;
+	}
+	.tab_content {
+		border-top-right-radius: 0;
+    	-moz-border-top-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
+		-khtml-border-top-right-radius: 0;
+	}
+}

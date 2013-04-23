@@ -1,0 +1,103 @@
+.help_wrapper
+{
+	width:100%;
+	float:left;
+	margin-top:20px;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.help_title {
+	font-size: 2.7em;
+	font-weight: bold;
+	padding: 3% 0;
+}
+#accordion .ui-accordion-header {
+	background: #f6fcfd;
+	margin-bottom: 1em;
+	font-weight: bold;
+	border: 1px #c6e8f1 solid;
+	background-color: #f6fcfd;	
+	border-radius: 3px; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+}
+#accordion .ui-accordion-header-active {
+	border-bottom: none;
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	-moz-border-bottom-left-radius: 0;
+	-webkit-border-bottom-left-radius:0;
+	-khtml-border-bottom-left-radius: 0;	
+	border-bottom-right-radius: 0;
+	-moz-border-bottom-right-radius: 0;
+	-webkit-border-bottom-right-radius:0;
+	-khtml-border-bottom-right-radius: 0;	
+	border-top-left-radius: 3px;
+	-moz-border-top-left-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-khtml-border-top-left-radius: 3px;	
+	border-top-right-radius: 3px;
+	-moz-border-top-right-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-khtml-border-top-right-radius: 3px;	
+}
+#accordion .ui-accordion-content  {
+	margin-bottom: 1em;
+	background: #f6fcfd;
+	border-bottom: 1px #c6e8f1 solid;
+	border-left: 1px #c6e8f1 solid;
+	border-right: 1px #c6e8f1 solid;
+	border-top: none;
+	padding: 0em 2em 1em 5.2em;
+	border-top-left-radius: 0;
+	-moz-border-top-left-radius: 0;
+	-webkit-border-top-left-radius:0;
+	-khtml-border-top-left-radius: 0;	
+	border-top-right-radius: 0;
+	-moz-border-top-right-radius: 0;
+	-webkit-border-top-right-radius:0;
+	-khtml-border-top-right-radius: 0;	
+	border-bottom-left-radius: 3px;
+	-moz-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-khtml-border-bottom-left-radius: 3px;	
+	border-bottom-right-radius: 3px;
+	-moz-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-khtml-border-bottom-right-radius: 3px;	
+}
+#accordion .ui-state-hover {
+	background: #f6fcfd;
+}
+#accordion .ui-state-default {
+	color: #000;
+}
+#accordion .ui-state-default .ui-icon {
+	background-image: url("../images/ui-icon-plus-minus.png");
+}
+#accordion .ui-icon-plus {
+    background-position: -24px 0px;
+}
+#accordion .ui-icon-minus {
+    background-position: 0px 0px;
+}
+#accordion .ui-icon {
+    width: 24px;
+    height: 24px;
+}
+#accordion .ui-accordion-header .ui-accordion-header-icon {
+	left: 2.2em;
+	margin-top: -11px;
+}
+#accordion  .ui-accordion-icons {
+    padding: 1.8em 2em 1.8em 5.2em;
+}
+@media screen and (max-width:568px)
+{
+	.help_wrapper
+	{
+		padding:0 2%;
+	}
+}

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=9">
+		<meta charset='utf-8'> 
+		
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		
+		<title>Superdirect</title>
+		
+		<link rel="stylesheet" type="text/css" href="style/gridpak.less"/>
+		<link rel="stylesheet" type="text/css" href="style/gridpak.scss"/>
+		<link rel="stylesheet" type="text/css" href="style/gridpak.css"/>
+		<link rel="stylesheet" type="text/css" href="fonts/AntartidaRounded.css"/>
+		<link rel="stylesheet" type="text/css" href="style/jquery.selectBox.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="style/main.css"/>
+		<link rel="stylesheet" type="text/css" href="style/products.css"/>
+		<link rel="stylesheet" type="text/css" href="style/product_overview.css"/>
+		<link rel="stylesheet" type="text/css" href="style/jquery.pageslide.css"/>
+		
+		<script type="text/javascript" src="scripts/jquery.v1.8.3.js"></script>
+		<script type="text/javascript" src="scripts/global.js"></script>
+		<script type="text/javascript" src="scripts/jquery.mobile.touch.js"></script>
+		<script type="text/javascript" src="scripts/jquery.selectBox.js"></script>
+		<script type="text/javascript" src="scripts/jquery.carouFredSel-6.2.0-packed.js"></script>
+		
+	</head>
+	<body>
+		<style rel="stylesheet" type="text/css" id="style"></style>
+		<section id="main_content" class="ipad_fix">
+			<!-- <div class="menu_trigger">
+				<a href="#left_menu" id="menu_trigger_button"></a>
+			</div> -->
+			<section id="left_menu">
+				<h3 id="" class="close_menu"></h3>
+				<div id="scroll_left" >
+					<div id="left_menu_scroll" class="left_menu_scroll" style="">
+						<h3 id="close_menu" class="close_menu">
+							<button type="submit" class="btn_purple">Inloggen</button>
+							<button type="submit" class="btn_purple">registreren</button>
+						</h3>
+						
+						<!-- <nav class="account_menu">
+							<ul>
+								<li><a href="">Instellingen</a></li>
+								<li><a href="">Mijn favorieten</a></li>
+								<li><a href="">Mijn bestelhistorie</a></li>
+								<li><a href="">Uitloggen</a></li>
+							</ul>
+						</nav> -->
+						<h3>Producten</h3>
+						<nav>
+							<ul>
+								<li><a href="" class="show">Alles <span>62</span></a></li>
+								<li><a href="">Boter <span>18</span></a></li>
+								<li><a href="" class="show">Desserts <span>22</span></a></li>
+								<li><a href="" class="show">Eieren <span>8</span></a></li>
+								<li><a href="" class="show">Kaas <span>26</span></a></li>
+								<li><a href="" class="show">Melk <span>19</span></a></li>
+								<li><a href="" class="show">Slagroom en kookroom <span>8</span></a></li>
+								<li><a href="" class="show">Soya <span>6</span></a></li>
+								<li><a href="" class="show">Yoghurt en vla <span>23</span></a></li>
+								<li><a href="" class="show">Zuiveldranken <span>37</span></a></li>
+									<li><a href="" class="show">Slagroom en kookroom <span>8</span></a></li>
+								<li><a href="" class="show">Soya <span>6</span></a></li>
+								<li><a href="" class="show">Yoghurt en vla <span>23</span></a></li>
+								<li><a href="" class="show">Zuiveldranken <span>37</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</section>
+			<div class="main_content_wrapper">
+				<header>
+					<a href="" class="logo">
+						<img src="images/logo.jpg" />
+					</a>
+					<nav>
+						<ul>
+							<li>
+								<a href="">Hoe het werkt</a>
+							</li>
+							<li>
+								<a href="">Hulp nodig?</a>
+							</li>
+							<li>
+								<a href="">Afhaalpunten</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="mobile_menu">
+						<a href="" class="logo">
+							<img src="images/logo.jpg" />
+						</a>
+						<div class="small_menu">
+							<a href="" class="menu_trigger close_menu"></a>
+							<a href="" class="search_trigger"></a>
+							<a href="" class="basket_trigger close_basket">
+								<span>24</span>
+							</a>
+						</div>
+					</div>
+					<div class="account_wrapper">
+						<ul>
+							<li><a href="" class="account">Hoi Roel</a></li>
+							<li><a href="" class="blue">Instellingen</a></li>
+							<li><a href="" class="blue">Favorient</a></li>
+							<li><a href="" class="blue">Mijn bestellingen</a></li>
+							<li><a href="" class="red">Uitloggen</a></li>
+						</ul>
+					</div>
+					<div class="search_wrapper">
+						<div class="search_form">
+							<input type="text" />
+							<button type="button">ZOEKEN</button>
+						</div>
+					</div>
+					<div class="row search_sort">
+						<select class="selectBox">
+							<option>
+								Zuivel, kaas, ei
+							</option>
+						</select>
+						<select class="selectBox">
+							<option>
+								Desserts (22)
+							</option>
+						</select>
+						<select class="selectBox right">
+							<option>
+								Alfabetisch
+							</option>
+						</select>
+						<div class="search_filter">
+							<a href="" class="btn_filter_product">Producten filteren</a>
+							<div class="filter_wrapper">
+								<div class="box_1">
+									<h3>Schap</h3>
+									<ul>
+										<li>
+											<a href="">Toetjes (67)</a>
+										</li>
+										<li>
+											<a href="">Kindertoetjes (22)</a>
+										</li>
+										<li>
+											<a href="">Verwentoetjes (26)</a>
+										</li>
+										<li>
+											<a href="">Pap (16)</a>
+										</li>
+										<li>
+											<a href="">Kwark (37)</a>
+										</li>
+										<li>
+											<a href="">Pudding (25)</a>
+										</li>
+										<li>
+											<a href="">Mousse (11)</a>
+										</li>
+									</ul>
+								</div>
+								<div class="box_2">
+									<h3>Merk</h3>
+									<ul>
+										<li>
+											<a href="">Alm­hof (10)</a>
+										</li>
+										<li>
+											<a href="">Bes­so­la (1)</a>
+										</li>
+										<li>
+											<a href="">Bon­ne Ma­man (4)</a>
+										</li>
+										<li>
+											<a href="">Cam­pi­na (4)</a>
+										</li>
+										<li>
+											<a href="" class="selected">Da­nio (1)</a>
+										</li>
+										<li>
+											<a href="">Da­no­ne (24)</a>
+										</li>
+										<li>
+											<a href="">De Zaan­se Hoe­ve (8)</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="">Dr. Oet­ker (12)</a>
+										</li>
+										<li>
+											<a href="">Ehr­mann (6)</a>
+										</li>
+										<li>
+											<a href="">Frie­sche Vlag (1)</a>
+										</li>
+										<li>
+											<a href="">Gü (3)</a>
+										</li>
+										<li>
+											<a href="">Melk­unie (8)</a>
+										</li>
+										<li>
+											<a href="">Mo­na (27)</a>
+										</li>
+										<li>
+											<a href="">Mon­de­li­ce (1)</a>
+										</li>
+									</ul>
+								</div>
+								<div class="box_1">
+									<h3>Kenmerk</h3>
+									<ul>
+										<li>
+											<a href="">Bewuste keuze (67)</a>
+										</li>
+										<li>
+											<a href="">Biologisch (22)</a>
+										</li>
+										<li>
+											<a href="">Glutenvrij (26)</a>
+										</li>
+										<li>
+											<a href="">Voor kinderen (16)</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>				
+			</div>
+			<div class="main_content_wrapper main_bg">
+				<div class="product_list_wrapper slider ">
+					<div class="span_3 col banner_wrapper">
+						<ul id="slider">
+							<li>
+								<a href="">
+									<img src="images/demo/banner_1.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/demo/banner_2.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/demo/banner_3.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/demo/banner_4.jpg"/>
+								</a>
+							</li>
+						</ul>
+						<div id="banner_pagination"></div>
+					</div>
+					<div class="span_1 col product offer">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_1.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_2.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_3.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_4.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product offer">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_5.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product offer">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_1.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_2.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_3.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_4.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product offer">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_5.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product offer">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_1.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+					<div class="span_1 col product">
+						<div class="product_top"></div>
+						<div class="product_bottom"></div>
+						<div class="img_wrapper">
+							<img src="images/demo/p_2.jpg" alt="" />
+						</div>
+						<div class="desc">
+							<h3>Ehrmann Griess-traum</h3>
+							<h4>Lorem ipsum dolor sit amet</h4>
+							<div class="price">
+								<span class="old">0.60</span>
+								<span class="current">0.<sup>50</sup></span>
+							</div>
+							<button class="btn_add_to_cart"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section id="footer">
+				<div class="footer_wrapper center">
+					<div class="span_1 col">
+						<h2>
+							Afhaallocaties
+						</h2>
+						<ul>
+							<li>
+								<a href="">Afhaallocaties</a>
+							</li>
+							<li>
+								<a href="">Nieuwe afhaallocaties</a>
+							</li>
+						</ul>
+					</div>
+					<div class="span_1 col">
+						<h2>
+							klantenservice
+						</h2>
+						<ul>
+							<li>
+								<a href="">Veel gestelde vragen</a>
+							</li>
+							<li>
+								<a href="">Contact</a>
+							</li>
+							<li>
+								<a href="">Bestelling</a>
+							</li>
+							<li>
+								<a href="">Betaling</a>
+							</li>
+						</ul>
+					</div>
+					<div class="span_1 col">
+						<h2>
+							Over superdirect
+						</h2>
+						<ul>
+							<li>
+								<a href="">Corporate website</a>
+							</li>
+							<li>
+								<a href="">Nieuwsbrief</a>
+							</li>
+							<li>
+								<a href="">Privacy statement</a>
+							</li>
+							<li>
+								<a href="">Algemene voorwaarden</a>
+							</li>
+						</ul>
+					</div>
+					<div class="span_1 col center social_n">
+						<a href="" class="twitter"></a>
+						<a href="" class="facebook"></a>
+						<a href="" class="download_app"><span class="text"></span></a>
+					</div>
+					<div class="hr"></div>
+					<div class="row center">
+						<a href="" class="ico_1"></a>
+						<a href="" class="ico_2"></a>
+						<a href="" class="ico_3"></a>
+						<span class="copyright">
+							Alle rechten voorbehouden (c) Superdirect.com 2013
+						</span>
+					</div>
+				</div>
+			</section>
+			<section id="right_basket">
+				<span class="close_basket">
+				 	<span>24</span>
+				</span>
+				<div id="scroll_right">
+					<div class="right_basket_scroll" id="basket">
+						<span id="close_basket" class="close_basket">
+							Winkelmand
+							<span>24</span>
+						</span>
+						<ul>
+							<li>
+								<span>1</span>
+								<span>
+									Ehrmann<br/>
+									Vanille-Traum
+								</span>
+								<span>
+									0.46
+								</span>
+								<div>
+									<a href=""  class="btn_remove"></a>
+									<a href="" class="btn_add"  id="add_btn"></a>
+								</div>
+							</li>
+							<li>
+								<span>4</span>
+								<span>
+									Honlg Mie nestjes<br/>
+									fijn
+								</span>
+								<span>
+									1.22
+								</span>
+								<div>
+									<button type="button" class="btn_remove"></button>
+									<a href="" class="btn_add"  id=""></a>
+								</div>
+							</li>
+							<li>
+								<span>2</span>
+								<span>
+									Markant Spaghetti<br/>
+									naturel
+								</span>
+								<span>
+									0.54
+								</span>
+								<div>
+									<button type="button" class="btn_remove"></button>
+									<button type="button" class="btn_add"></button>
+								</div>
+							</li>
+						</ul>
+						<div class="row">
+							<span class="total">
+								Totaal
+								<span class="right">12.52</span>
+							</span>
+						</div>
+						<div class="row center">
+							<div class="btn_blue">
+								direct bestellen
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- <div class="basket_trigger">
+				<a href="#right_basket" id="basket_trigger_button">
+					<span>24</span>
+				</a>
+			</div> -->
+		</section>
+		
+		
+		<script type="text/javascript" src="scripts/jquery.pageslide_custom.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+		<script type="text/javascript">
+			
+			
+			var resizeTimer;
+			//initialize banner script
+			function initBanner()
+			{
+				$("#slider").trigger('destroy');
+				$("#slider").carouFredSel({
+					circular: false,
+					width: 580,
+					height:"auto",
+					items: {
+						width: 580,
+						height:"auto"
+					},
+					scroll: {
+						fx: "fade",
+						pauseOnHover: true
+					},
+					auto: 5000,
+					pagination:"#banner_pagination",
+					responsive:true
+				});
+				
+			}
+			$(function(){
+				initBanner();
+				$(window).resize(function(){
+					 clearTimeout(resizeTimer);
+				    resizeTimer = setTimeout(initBanner, 100);
+				});	
+			}); 
+			
+			$(function(){
+				$('.btn_filter_product').bind('click', function(e){
+					e.preventDefault();
+					if(!$('.filter_wrapper').is(':animated'))
+					{
+						$('.filter_wrapper').slideToggle();
+					}
+				});
+			});
+			
+		</script>
+	</body>
+</html>

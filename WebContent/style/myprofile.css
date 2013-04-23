@@ -1,0 +1,487 @@
+.myprofile_wrapper {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.myprofile_title {
+	padding: 3% 4% 1% 4%;
+}
+.myprofile_row {
+	padding: 3px 0 15px 0;
+	position: relative;
+	width: 100%;
+}
+.address_row {
+	padding: 0;
+}
+.city_field {
+	float: left;
+	width: 29%;
+	position: relative;
+	padding-bottom: 15px;
+}
+.postcode_field {
+	width: 10%;
+	margin-right: 1%;
+	float: left;
+	position: relative;
+	padding-bottom: 26px;
+}
+.street_field {
+	width: 28%;
+	margin-right: 1%;
+	float: left;
+	position: relative;
+	padding-bottom: 15px;
+}
+.house_number_field {
+	float: left;
+	width: 11%;
+	position: relative;
+	padding-bottom: 15px;
+}
+.city_field label.error,
+.postcode_field label.error,
+.street_field label.error,
+.house_number_field label.error {
+	left: 0%;
+}
+.city_field .default,
+.postcode_field .default,
+.street_field .default,
+.house_number_field .default {
+	width: 100%;
+}
+label.error {
+	left: 18%;
+}
+.select_wrepper {
+	width: 40%;
+	position: relative;
+	float: left;
+}
+.title_select_wrapper {
+	width: 10%;
+	margin-right: 1%;
+}
+.select_wrepper select {
+	width: 100%;
+}
+.birthdate_row img {
+	margin-left: -25px;
+	margin-top: 4px;
+	width: auto;
+	float: left;
+}
+.middle_field {
+	width: 29%;
+}
+.small_field {
+	width: 20%;
+}
+.smallest_field {
+	width: 10%;
+}
+.personal_data {
+	border-bottom: 1px #8cd2e3 solid;
+	padding: 1% 1% 2% 1%;
+	width: 98%;
+}
+.pickup_address {
+	color: #666666;
+	padding-left: 20%;
+}
+.myprofile_action {
+	padding: 3% 0 3% 20%;
+}
+.myprofile_row:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;	
+}
+@media screen and (max-width:1635px)
+{
+	.default,
+	.selectBox-dropdown  {
+		width: 45%;
+	}
+	.select_wrepper {
+		width: 45%;
+	}
+	.title_select_wrapper {
+		width: 12%;
+		margin-right: 1%;
+    }
+    .middle_field {
+		width: 32%;
+	}
+	.small_field {
+		width: 25%;
+	}
+	.smallest_field {
+		width: 13%;
+	}
+	.city_field {		
+		width: 32%;
+	}
+	.postcode_field {
+		width: 12%;
+		margin-right: 1%;
+	}
+	.street_field {
+		width: 31%;
+		margin-right: 1%;
+	}
+	.house_number_field {
+		width: 13%;
+	}		
+}
+@media screen and (max-width:1255px)
+{
+	.default,
+	.selectBox-dropdown  {
+		width: 47%;
+	}
+	.select_wrepper {
+		width: 47%;
+	}
+	.title_select_wrapper {
+		width: 13%;
+		margin-right: 1%;
+    }
+    .middle_field {
+		width: 33%;
+	}
+	.small_field {
+		width: 26%;
+	}
+	.smallest_field {
+		width: 14%;
+	}
+	.city_field {		
+		width: 33%;
+	}
+	.postcode_field {
+		width: 13%;
+		margin-right: 1%;
+	}
+	.street_field {
+		width: 32%;
+		margin-right: 1%;
+	}
+	.house_number_field {
+		width: 14%;
+	}	
+}
+@media screen and (max-width:1191px)
+{
+	.lbl {	
+		width: 21%;
+	}
+	label.error {
+		left: 21%;
+	}
+	.pickup_address {
+		padding-left: 23%;
+	}
+	.myprofile_action {
+		padding: 3% 0 3% 23%;
+	}
+	.default,
+	.selectBox-dropdown  {
+		width: 50%;
+	}
+	.select_wrepper {
+		width: 50%;
+	}
+	.title_select_wrapper {
+		width: 15%;
+		margin-right: 1%;
+    }
+    .middle_field {
+		width: 34%;
+	}
+	.small_field {
+		width: 26%;
+	}
+	.smallest_field {
+		width: 16%;
+	}
+	.city_field {		
+		width: 34%;
+	}
+	.postcode_field {
+		width: 15%;
+		margin-right: 1%;
+	}
+	.street_field {
+		width: 33%;
+		margin-right: 1%;
+	}
+	.house_number_field {
+		width: 16%;
+	}				
+}
+@media screen and (max-width:1090px)
+{
+	.lbl {
+		width: 25%;
+	}
+	label.error {
+		left: 25%;
+	}
+	.pickup_address {
+		padding-left: 27%;
+	}
+	.myprofile_action {
+		padding: 3% 0 3% 27%;
+	}
+	.default,
+	.selectBox-dropdown  {
+		width: 55%;
+	}
+	.select_wrepper {
+		width: 55%;
+	}
+	.title_select_wrapper {
+		width: 18%;
+		margin-right: 1%;
+    }
+    .middle_field {
+		width: 36%;
+	}
+	.small_field {
+		width: 27%;
+	}
+	.smallest_field {
+		width: 19%;
+	}
+	.city_field {		
+		width: 36%;
+	}
+	.postcode_field {
+		width: 18%;
+		margin-right: 1%;
+	}
+	.street_field {
+		width: 35%;
+		margin-right: 1%;
+	}
+	.house_number_field {
+		width: 19%;
+	}		
+}
+@media screen and (max-width:976px)
+{
+	.lbl {
+		width: 28%;
+	}
+	label.error {
+		left: 28%;
+	}
+	.pickup_address {
+		padding-left: 30%;
+	}
+	.myprofile_action {
+		padding: 3% 0 3% 30%;
+	}
+	.default,
+	.selectBox-dropdown  {
+		width: 60%;
+	}
+	.select_wrepper {
+		width: 60%;
+	}
+	.title_select_wrapper {
+		width: 21%;
+		margin-right: 1%;
+    }
+    .middle_field {
+		width: 38%;
+	}
+	.small_field {
+		width: 30%;
+	}
+	.smallest_field {
+		width: 22%;
+	}
+	.city_field {		
+		width: 38%;
+	}
+	.postcode_field {
+		width: 21%;
+		margin-right: 1%;
+	}
+	.street_field {
+		width: 37%;
+		margin-right: 1%;
+	}
+	.house_number_field {
+		width: 22%;
+	}		
+}
+@media screen and (max-width:901px)
+{
+	.lbl {
+		width: 30%;
+	}
+	label.error {
+		left: 30%;
+	}
+	.pickup_address {
+		padding-left: 32%;
+	}
+	.myprofile_action {
+		padding: 3% 0 3% 32%;
+	}
+	.default,
+	.selectBox-dropdown  {
+		width: 65%;
+	}
+	.select_wrepper {
+		width: 65%;
+	}
+	.title_select_wrapper {
+		width: 24%;
+		margin-right: 1%;
+    }
+    .middle_field {
+		width: 40%;
+	}
+	.small_field {
+		width: 35%;
+	}
+	.smallest_field {
+		width: 25%;
+	}
+	.city_field {		
+		width: 40%;
+	}
+	.postcode_field {
+		width: 24%;
+		margin-right: 1%;
+	}
+	.street_field {
+		width: 39%;
+		margin-right: 1%;
+	}
+	.house_number_field {
+		width: 25%;
+	}		
+}
+@media screen and (max-width:873px)
+{
+	.lbl {
+		width: 33%;
+	}
+	label.error {
+		left: 33%;
+	}
+	.pickup_address {
+		padding-left: 35%;
+	}
+	.myprofile_action {
+		padding: 3% 0 3% 35%;
+	}
+}
+@media screen and (max-width:832px)
+{
+	.default,
+	.selectBox-dropdown  {
+		width: 67%;
+	}
+	.select_wrepper {
+		width: 67%;
+	}
+	.title_select_wrapper {
+		width: 26%;
+		margin-right: 1%;
+    }
+    .middle_field {
+		width: 40%;
+	}
+	.small_field {
+		width: 35%;
+	}
+	.smallest_field {
+		width: 27%;
+	}
+	.city_field {		
+		width: 40%;
+	}
+	.postcode_field {
+		width: 26%;
+		margin-right: 1%;
+	}
+	.street_field {
+		width: 39%;
+		margin-right: 1%;
+	}
+	.house_number_field {
+		width: 27%;
+	}	
+	.house_number_field label.error {
+		left: -2px;
+	}	
+}
+@media screen and (max-width:443px)
+{
+	.lbl {
+		width: 100%;
+		text-align: left;
+	}
+	label.error {
+		left: 4%;
+	}
+	.myprofile_row {
+		padding: 3px 0 15px 4%;
+		width: 96%;
+	}
+	.pickup_address {
+		padding-left: 2%;
+	}
+	.myprofile_action {
+		padding: 5% 0 5% 4%;
+	}
+	.default,
+	.selectBox-dropdown  {
+		width: 97%;
+	}
+	.select_wrepper {
+		float: left;
+    	position: relative;
+    	width: 40%;
+	}
+	.title_select_wrapper {
+		width: 35%;
+		margin-right: 2%;
+    }
+    .middle_field {
+		width: 60%;
+	}
+	.small_field {
+		width: 55%;
+	}
+	.smallest_field {
+		width: 37%;
+	}
+	.city_field {		
+		width: 60%;
+	}
+	.postcode_field {
+		width: 35%;
+		margin-right: 2%;
+	}
+	.street_field {
+		width: 58%;
+		margin-right: 2%;
+	}
+	.house_number_field {
+		width: 37%;
+	}
+}

@@ -1,0 +1,150 @@
+.order_details_wrapper {	
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.order_details_title {
+	font-size: 2.7em;
+	font-weight: bold;
+	padding: 0 0 2% 0;
+	width: 100%;
+}
+.product_details
+{
+	width:100%;
+	float:left;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:30px 3.8%;
+	border:1px solid #8cd2e3;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.product_details .left_side
+{
+	width:58%;
+	float:left;
+}
+.product_details .left_side .row
+{
+	margin-bottom:7px;
+}
+.product_details .left_side .row span
+{
+	width:64%;
+	font-size:1.33em;
+	line-height:normal;
+	float:left;
+}
+.product_details .left_side .row span span
+{
+	font-size:1em;
+}
+.product_details .left_side .row span:first-child
+{
+	width:24%;
+	min-width:145px;
+	float:left;
+	font-weight:bold;
+}
+.product_details .right_side
+{
+	width:40%;
+	float:right;
+}
+	.product_details .right_side img
+	{
+		width:auto;
+		float:right;
+		clear:both;
+	}
+.btn_blue_big
+{
+	max-width:230px;
+	width:100%;
+	height:auto;
+	float:right;
+	background:#1aa5c8;
+	color:#fff;
+	text-transform:uppercase;
+	padding:10px 8.5%;
+	border:1px solid #005c9a;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	line-height:normal;
+	margin-bottom:45px;
+	clear:both;
+}
+.blue_code
+{
+	width:100%;
+	max-width:400px;
+	float:left;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	background:#ddf2f7;
+	padding:15px 5%;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:2em;
+    margin-top:30px;
+}
+.pickup_information {
+	padding: 0;
+}
+.extra_information {
+	padding: 30px 0 0 0;
+}
+.num_added_items span {
+	color: #000;
+	background: #ffbe00;
+	padding: 2px 3%;
+}
+.name_link {
+	padding: 0 0 1% 0;
+}
+.product_details:after,
+.product_details .left_side .row:after,
+.pickup_information:after,
+.extra_information:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;	
+}
+@media screen and (max-width:1200px)
+{
+	.product_details .left_side, .product_details .right_side
+	{
+		width:100%;
+	}
+	.product_details .right_side button, .product_details .right_side img
+	{
+		float:left;
+	}
+	.product_details .right_side
+	{
+		margin-top:40px;
+	}
+	.btn_blue_big
+	{
+		padding:10px 3%;
+	}
+}
+@media screen and (max-width:568px)
+{
+	.order_details_wrapper
+	{
+		padding:0 2%;
+	}
+}

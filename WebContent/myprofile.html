@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=9">
+		<meta charset='utf-8'> 
+		
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		
+		
+		<link rel="stylesheet" type="text/css" href="style/gridpak.less"/>
+		<link rel="stylesheet" type="text/css" href="style/gridpak.scss"/>
+		<link rel="stylesheet" type="text/css" href="style/gridpak.css"/>
+		<link rel="stylesheet" type="text/css" href="fonts/AntartidaRounded.css"/>
+		<link rel="stylesheet" type="text/css" href="style/jquery.selectBox.css"/>
+				
+		<link rel="stylesheet" type="text/css" href="style/jquery.pageslide.css"/>
+		<link rel="stylesheet" type="text/css" href="scripts/selectBox/css/jquery.selectbox.css"/>
+		<link rel="stylesheet" type="text/css" href="scripts/jquery-ui/jquery-ui-1.10.2.custom.css"/>	
+		<link rel="stylesheet" type="text/css" href="style/main.css"/>
+		<link rel="stylesheet" type="text/css" href="style/myprofile_tabs.css"/>
+		<link rel="stylesheet" type="text/css" href="style/myprofile.css"/>		
+		
+		<script type="text/javascript" src="scripts/jquery.v1.8.3.js"></script>
+		<script type="text/javascript" src="scripts/jquery.mobile.touch.js"></script>
+		<script type="text/javascript" src="scripts/jquery.validate.js"></script>
+		<script type="text/javascript" src="scripts/global.js"></script>
+		<script type="text/javascript" src="scripts/jquery.selectBox.js"></script>
+		<script type="text/javascript" src="scripts/jquery-ui/jquery-ui-1.10.2.custom.js"></script>
+	</head>
+	<body>
+		<style rel="stylesheet" type="text/css" id="style"></style>
+		<section id="main_content" class="ipad_fix">
+			<!-- <div class="menu_trigger">
+				<a href="#left_menu" id="menu_trigger_button"></a>
+			</div> -->
+			<section id="left_menu">
+				<h3 id="" class="close_menu"></h3>
+				<div id="scroll_left" >
+					<div id="left_menu_scroll" class="left_menu_scroll" style="">
+						<h3 id="close_menu" class="close_menu">Hoi Roel
+							<!-- <button type="submit" class="btn_purple">Inloggen</button>
+							<button type="submit" class="btn_purple">registreren</button> -->
+						</h3>
+						
+						<nav class="account_menu">
+							<ul>
+								<li><a href="">Instellingen</a></li>
+								<li><a href="">Mijn favorieten</a></li>
+								<li><a href="">Mijn bestelhistorie</a></li>
+								<li><a href="">Uitloggen</a></li>
+							</ul>
+						</nav>
+						<h3>Producten</h3>
+						<nav>
+							<ul>
+								<li><a href="" class="show">Alles <span>62</span></a></li>
+								<li><a href="">Boter <span>18</span></a></li>
+								<li><a href="" class="show">Desserts <span>22</span></a></li>
+								<li><a href="" class="show">Eieren <span>8</span></a></li>
+								<li><a href="" class="show">Kaas <span>26</span></a></li>
+								<li><a href="" class="show">Melk <span>19</span></a></li>
+								<li><a href="" class="show">Slagroom en kookroom <span>8</span></a></li>
+								<li><a href="" class="show">Soya <span>6</span></a></li>
+								<li><a href="" class="show">Yoghurt en vla <span>23</span></a></li>
+								<li><a href="" class="show">Zuiveldranken <span>37</span></a></li>
+								<li><a href="" class="show">Slagroom en kookroom <span>8</span></a></li>
+								<li><a href="" class="show">Soya <span>6</span></a></li>
+								<li><a href="" class="show">Yoghurt en vla <span>23</span></a></li>
+								<li><a href="" class="show">Zuiveldranken <span>37</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</section>
+			<div class="main_content_wrapper">
+				<header>
+					<a href="" class="logo">
+						<img src="images/logo.jpg" />
+					</a>
+					<nav>
+						<ul>
+							<li>
+								<a href="">Hoe het werkt</a>
+							</li>
+							<li>
+								<a href="">Hulp nodig?</a>
+							</li>
+							<li>
+								<a href="">Afhaalpunten</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="mobile_menu">
+						<a href="" class="logo">
+							<img src="images/logo.jpg" />
+						</a>
+						<div class="small_menu">
+							<a href="" class="menu_trigger close_menu"></a>
+							<a href="" class="search_trigger"></a>
+							<a href="" class="basket_trigger close_basket">
+								<span>24</span>
+							</a>
+						</div>
+					</div>
+					<div class="account_wrapper">
+						<ul>
+							<li><a href="" class="account">Hoi Roel</a></li>
+							<li><a href="" class="blue">Instellingen</a></li>
+							<li><a href="" class="blue">Favorient</a></li>
+							<li><a href="" class="blue">Mijn bestellingen</a></li>
+							<li><a href="" class="red">Uitloggen</a></li>
+						</ul>
+					</div>
+					<div class="search_wrapper">
+						<div class="search_form">
+							<input type="text" />
+							<button type="button">ZOEKEN</button>
+						</div>
+					</div>
+					<div class="row search_sort">
+						<!-- <select class="selectBox">
+							<option>
+								Zuivel, kaas, ei
+							</option>
+						</select>
+						<select class="selectBox">
+							<option>
+								Desserts (22)
+							</option>
+						</select> -->
+					</div>
+				</header>
+				<div class="myprofile_wrapper">					
+					  <ul class="myprofile_tabs">					
+					    <li class="active"><a href="#" class="active">Gegevens</a></li>					
+					    <li><a href="change_password.html">Wachtwoord wijzigen</a></li>					
+					    <li><a href="change_phone.html">Mobiel nr. wijzigen</a></li>				
+					  </ul>					
+					  <div class="tab_content">	
+					  	<form id="basic_information_form" method="post" action="">				
+					     	<h1 class="myprofile_title">Persoonsgegevens</h1>
+					     	<div class="personal_data">
+						     	<div class="myprofile_row">
+							     	<label for="email" class="lbl">* E-mailadres:</label>
+							     	<input type="text" name="email" id="email" Title="E-mailadres is niet ingevuld" class="default"/>							 
+						     	</div>	
+						     	<div class="myprofile_row">
+							     	<label for="salutation" class="lbl">Voornaam:</label>
+							     	<div class="select_wrepper title_select_wrapper">
+								     	<select id="salutation" name="salutation" class="selectBox">
+								     		<option>Dhr.</option>
+								     		<option>Mevr.</option>
+								     		<option>Mw.</option>
+								     	</select>
+							     	</div>
+							     	<input type="text" name="first_name" id="first_name" class="middle_field default" />
+						     	</div>	
+						     	<div class="myprofile_row">
+							     	<label for="last_name" class="lbl">Achternaam:</label>
+							     	<input type="text" name="last_name" id="last_name" class="default"/>
+						     	</div>
+						     	<div class="myprofile_row birthdate_row">
+							     	<label for="birthdate" class="lbl">* Geboortedatum:</label>
+							     	<input type="text" name="b_day" id="datepicker" class="small_field default" Title="Geboortedatum is niet ingevuld"/>							     	
+						     	</div>			
+						  </div>
+						  <h1 class="myprofile_title">Factuuradres</h1>
+					      <div class="personal_data">
+					          <div class="myprofile_row address_row">
+							     	<label for="street" class="lbl">* Straat & huisnr.:</label>
+							     	<div class="street_field">
+							     		<input type="text" name="street" id="street" class="default" title="Straat is niet correct"/>
+							     	</div>
+							     	<div class="house_number_field">
+							     		<input type="text" name="house_number" id="house_number" class="default" title="Huisnr. is niet correct"/>
+							     	</div>							     	
+						      </div>
+						      <div class="myprofile_row address_row">
+							     	<label for="postcode" class="lbl">* Postcode & plaats:</label>
+							     	<div class="postcode_field">
+							     		<input type="text"  name="postcode" id="postcode" class="default" title="Postcode is niet<br>correct"/>
+							     	</div>
+							     	<div class="city_field">
+							     		<input type="text" name="city" id="city" class="default" title="Plaats is niet correct"/>
+							     	</div>						     	
+						      </div>							     	
+					      </div>
+					      <h1 class="myprofile_title">Pickup point</h1>
+					      <div class="personal_data picup_data">
+					           <div class="myprofile_row">
+							     	<label for="pickup_point" class="lbl">Gewenste pickup point:</label>
+							     	<div class="select_wrepper">
+								     	<select id="pickup_point" name="pickup_point" class="selectBox">
+								     		<option>Eindhoven</option>							     		
+								     	</select>
+							     	</div>							     					  
+						     	</div>
+						     	<div class="myprofile_row">	
+						     		<div class="pickup_address">
+								     	Noord Brabantlaan 350<br>
+	                                    5657 GA Eindhoven
+							     	</div>	
+						     	</div>					     	
+					      </div>
+					      <div class="myprofile_action">
+					      	  <button id="btn_send" type="submit" class="btn_blue">Opslaan</button>
+					      </div>
+					   </form>
+					</div>									
+				</div>
+			</div>
+			<section id="footer">
+				<div class="footer_wrapper center">
+					<div class="span_1 col">
+						<h2>
+							Afhaallocaties
+						</h2>
+						<ul>
+							<li>
+								<a href="">Afhaallocaties</a>
+							</li>
+							<li>
+								<a href="">Nieuwe afhaallocaties</a>
+							</li>
+						</ul>
+					</div>
+					<div class="span_1 col">
+						<h2>
+							klantenservice
+						</h2>
+						<ul>
+							<li>
+								<a href="">Veel gestelde vragen</a>
+							</li>
+							<li>
+								<a href="">Contact</a>
+							</li>
+							<li>
+								<a href="">Bestelling</a>
+							</li>
+							<li>
+								<a href="">Betaling</a>
+							</li>
+						</ul>
+					</div>
+					<div class="span_1 col">
+						<h2>
+							Over superdirect
+						</h2>
+						<ul>
+							<li>
+								<a href="">Corporate website</a>
+							</li>
+							<li>
+								<a href="">Nieuwsbrief</a>
+							</li>
+							<li>
+								<a href="">Privacy statement</a>
+							</li>
+							<li>
+								<a href="">Algemene voorwaarden</a>
+							</li>
+						</ul>
+					</div>
+					<div class="span_1 col center social_n">
+						<a href="" class="twitter"></a>
+						<a href="" class="facebook"></a>
+						<a href="" class="download_app"><span class="text"></span></a>
+					</div>
+					<div class="hr"></div>
+					<div class="row center">
+						<a href="" class="ico_1"></a>
+						<a href="" class="ico_2"></a>
+						<a href="" class="ico_3"></a>
+						<span class="copyright">
+							Alle rechten voorbehouden (c) Superdirect.com 2013
+						</span>
+					</div>
+				</div>
+			</section>
+			<section id="right_basket">
+				<span class="close_basket">
+				 	<span>24</span>
+				</span>
+				<div id="scroll_right">
+					<div class="right_basket_scroll" id="basket">
+						<span id="close_basket" class="close_basket">
+							Winkelmand
+							<span>24</span>
+						</span>
+						<ul>
+							<li>
+								<span>1</span>
+								<span>
+									Ehrmann<br/>
+									Vanille-Traum
+								</span>
+								<span>
+									0.46
+								</span>
+								<div>
+									<a href=""  class="btn_remove"></a>
+									<a href="" class="btn_add"  id="add_btn"></a>
+								</div>
+							</li>
+							<li>
+								<span>4</span>
+								<span>
+									Honlg Mie nestjes<br/>
+									fijn
+								</span>
+								<span>
+									1.22
+								</span>
+								<div>
+									<button type="button" class="btn_remove"></button>
+									<a href="" class="btn_add"  id=""></a>
+								</div>
+							</li>
+							<li>
+								<span>2</span>
+								<span>
+									Markant Spaghetti<br/>
+									naturel
+								</span>
+								<span>
+									0.54
+								</span>
+								<div>
+									<button type="button" class="btn_remove"></button>
+									<button type="button" class="btn_add"></button>
+								</div>
+							</li>
+						</ul>
+						<div class="row">
+							<span class="total">
+								Totaal
+								<span class="right">12.52</span>
+							</span>
+						</div>
+						<div class="row center">
+							<div class="btn_blue">
+								direct bestellen
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- <div class="basket_trigger">
+				<a href="#right_basket" id="basket_trigger_button">
+					<span>24</span>
+				</a>
+			</div> -->
+		</section>
+		<script>
+		//custom fn for date validation
+		jQuery.validator.addMethod(
+	        "date_fn",
+	        function(value, element) {
+	            return value.match(/^\d\d?\-\d\d?\-\d\d\d\d$/);
+	        }
+	    );
+	    
+		//init validate plugin
+		$('#basic_information_form').validate({
+			rules: {
+				email: "required email",
+				password: {
+					required: true,
+					minlength: 6
+				},
+				b_day:{
+					required: true,
+					date_fn: true
+				},
+				postcode:{
+					required: true
+				},
+				house_number:{
+					required: true					
+				},
+				city:{
+					required: true	
+				},
+				street:{
+					required: true	
+				}
+			}
+		});
+		var d=new Date();
+	    var yearRange=(d.getFullYear()-90)+":"+(d.getFullYear()-18);
+		$( "#datepicker" ).datepicker({
+			yearRange: yearRange,
+			dateFormat: "dd-mm-yy",
+			altFormat: "dd-mm-yy",
+			defaultDate: "-30y",
+			minDate: new Date(d.getFullYear()-90,0,1,0,0,0,0),
+			maxDate: new Date(d.getFullYear()-18,d.getMonth(),d.getDate(),0,0,0,0),
+			gotoCurrent: true,
+			changeYear: true,
+			changeMonth: true,
+			showOtherMonths: true,
+			buttonImageOnly: true,
+			buttonText: "Kies datum",
+			firstDay:1,
+			showOn: "both",
+			altField: "#birthdate",
+			monthNames: [ "januari", "februari", "maart","april","mei","juni","juli","augustus","september","october","november","december"],
+			monthNamesShort: ["jan", "feb", "maa","apr","mei","jun","jul","aug","sep","oct","nov","dec"],
+			dayNamesMin: ['zon','maa', 'din', 'woe', 'don', 'vri', 'zat'],
+			buttonImage: "./images/calendar-icon.png"
+		});
+		</script>		
+		<script type="text/javascript" src="scripts/jquery.pageslide_custom.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+		
+	</body>
+</html>

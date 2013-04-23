@@ -1,0 +1,33 @@
+.page_wrapper {	
+	width:100%;
+	float:left;
+	margin-top:20px;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.page_top_text {
+	text-align: center;
+	border-bottom: 1px #cccccc solid;
+	font-style:italic;
+	padding: 6%;
+}
+.page_title {
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 6% 0 2% 0;
+}
+.page_content {
+	padding: 2% 0;
+}
+.page_content img {
+	width: auto;
+	max-width: 96%;
+	margin: 0 2% 2% 2%;
+}
+.page_content p {
+	padding: 2% 0;
+}
+table td {
+	padding-right: 2%;
+}

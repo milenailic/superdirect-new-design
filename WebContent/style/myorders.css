@@ -1,0 +1,282 @@
+.myorders_wrapper
+{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.myorders_title {
+	font-size: 2.7em;
+	font-weight: bold;
+	padding: 3% 0;
+	width: 70%;
+	float: left;
+}
+.myorders_order {
+	float: left;
+	width: 30%;
+	padding: 4% 0;
+	text-align: right;
+}
+.myorders_order select {
+	width: 100%;
+}
+.myorders_item {
+	border: 1px solid #ededed;
+	position: relative;
+	min-height: 75px;
+	margin-bottom: 2%;
+}
+.selectBox-dropdown {
+	font-weight: bold;
+}
+.myorders_top
+{
+	width: 9px;
+	height: 73px;
+	float: left;
+	background: url("../images/product_top_left.png") no-repeat 0 0;
+	position: absolute;
+	top: 0;
+	left: -10px;
+}
+.myorders_bottom
+{
+	width: 75px;
+	height: 74px;
+	float: left;
+	background: url("../images/product_bottom_right.jpg") no-repeat 0 0;
+	position: absolute;
+	bottom: -2px;
+	right: -9px;
+}
+.myorders_date,
+.myorders_status,
+.myorders_articel_number,
+.myorders_item_price,
+.myorders_item_add {
+	float: left;
+	position:relative;
+	z-index:10;
+}
+.myorders_date {
+	font-size: 1.5em;
+	width: 23%;
+	padding: 2.3% 0 0  1%;
+	font-weight: bold;
+}
+.myorders_status {
+	width: 36%;
+	padding: 2.5% 0 0 1%;
+	font-size: 1.1em;
+}
+.myorders_status a {
+	color: #1aa5c8;
+	text-decoration: none;
+}
+.order_item_link {
+	background: url("../images/btn_more.png") no-repeat 0 50%;
+	padding-left: 10px;
+	color: #1aa5c8;
+}
+.new_order {
+	background: url("../images/new_order.png") no-repeat 0 0;
+	padding: 2.3% 0 0  2%;
+	width: 22%;
+}
+.myorders_articel_number {
+	width: 15%;
+	padding: 2.5% 0 0 1%;
+	font-size: 1.1em;
+}
+.myorders_item_price {
+   color: #1aa5c8;
+   text-align: center;
+   width: 13%;
+   padding: 1.3% 0 0 1%;
+}
+.myorders_item_add {
+	width: 7%;
+	padding: 2.2% 0 0 1%;
+}
+.myorders_item_price .current {
+	font-size: 2.4em;
+}
+.myorders_item_price .sup {
+	font-size: 0.5em;
+}
+.title_order_box:after,
+.myorders_item:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;	
+}
+@media screen and (max-width:1700px)
+{
+	.myorders_date {
+		padding: 2.6% 0 0  1%;
+	}
+	.myorders_status {
+		padding: 3% 0 0 1%;
+	}
+	.new_order {
+		padding: 2.6% 0 0  2%;
+	}
+	.myorders_articel_number {		
+		padding: 3% 0 0 1%;
+	}
+	.myorders_item_price {
+	   padding: 1.5% 0 0 1%;
+	}
+	.myorders_item_add {
+		padding: 2.7% 0 0 1%;
+	}
+}
+@media screen and (max-width:1280px)
+{
+	.myorders_date {
+		width: 22%;
+		padding: 3.4% 0 0  1%;
+	}
+	.new_order {
+		padding: 3.4% 0 0  3%;
+		width: 20%;
+	}
+	.myorders_status {
+		width: 35%;
+		padding: 3.7% 0 0 1%;
+	}
+	.myorders_articel_number {
+		width: 15%;
+		padding: 3.7% 0 0 1%;
+	}
+	.myorders_item_price {	  
+	   width: 14%;
+	   padding: 1.7% 0 0 1%;
+	}
+	.myorders_item_add {
+		width: 7%;
+		padding: 3% 0 0 1%;
+	}
+}
+@media screen and (max-width:1060px)
+{
+	.myorders_date {
+		width: 21%;
+		padding: 4.4% 0 0  2%;
+	}
+	.new_order {
+		padding: 4.4% 0 0  4%;
+		width: 19%;
+	}
+	.myorders_status {
+		width: 31%;
+		padding: 4.8% 0 0 1%;
+	}
+	.myorders_articel_number {
+		width: 14%;
+		padding: 4.8% 0 0 1%;
+	}
+	.myorders_item_price {	  
+	   width: 19%;
+	   padding: 2.2% 0 0 1%;
+	}
+	.myorders_item_add {
+		width: 7%;
+		padding: 4.2% 0 0 1%;
+	}
+}
+@media screen and (max-width:720px)
+{
+	.myorders_date {
+		width: 30%;
+		padding: 4.8% 0 0  2%;
+	}
+	.new_order {
+		padding: 4.8% 0 0  4%;
+		width: 27%;
+	}
+	.myorders_status {
+		width: 64%;
+		padding: 4.6% 0 0 1%;
+	}
+	.myorders_articel_number {
+		width: 95%;
+		padding: 4.6% 0 0 1%;
+	}
+	.myorders_item_price {	  
+	   width: 30%;
+	   padding: 2.2% 0 0 1%;
+	   text-align: left;
+	}
+	.myorders_item_add {
+		width: 64%;
+		padding: 4.2% 0 0 1%;
+	}
+}
+@media screen and (max-width:650px)
+{
+	.myorders_title {
+		width: 100%;
+	}	
+	.myorders_order {
+		width: 35%;
+	}
+	.myorders_date {		
+		padding: 5% 0 0  3%;
+	}
+	.new_order {
+		padding: 5% 0 0  6%;		
+	}
+	.myorders_status {
+		padding: 5.5% 0 0 1%;
+	}
+}
+@media screen and (max-width:568px)
+{
+	.myorders_wrapper
+	{
+		padding:0 2%;
+	}
+}
+@media screen and (max-width:400px)
+{
+	.myorders_order {
+		width: 45%;
+	}
+	.myorders_date {
+		width: 98%;
+		padding: 4% 0 4%  2%;
+	}
+	.new_order {
+		padding-left: 10%;
+		width: 90%;
+	}
+	.myorders_status {
+		width: 95%;
+		padding: 5% 0 5% 5%;
+	}
+	.myorders_articel_number {
+		width: 95%;
+		padding: 1% 0 1% 5%;
+	}
+	.myorders_item_price {	  
+	   width: 40%;
+	   padding: 1% 0 0 5%;
+	   text-align: left;
+	}
+	.myorders_item_add {
+		width: 54%;
+		padding: 3% 0 0 1%;
+	}
+}
+@media screen and (max-width:320px)
+{
+	.myorders_order {
+		width: 50%;
+	}
+}

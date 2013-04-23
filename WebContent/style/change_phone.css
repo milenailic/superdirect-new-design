@@ -1,0 +1,108 @@
+.change_phone_wrapper {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.change_phone_title {
+	padding: 3% 4% 2% 4%;
+}
+.tab_content {
+	padding: 0 0 4% 0;
+}
+.tab_content form {
+	float: left;
+	width: 60%;
+}
+.privacy_content {
+	float: left;
+	padding: 0 5% 2% 5%;
+    width: 40%;
+    border-left: 1px #8cd2e3 solid;
+    -webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.change_phone_action {
+	padding: 3% 0 3% 40%;
+}
+#btn_send {
+	/*background: #1aa5c8;
+	border: 1px #005c9a solid;
+	color: #FFFFFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	cursor: pointer;
+	padding: 2% 4%;
+	text-transform: uppercase;*/
+}
+.change_phone_row {
+	padding: 3px 0 15px 0;
+	position: relative;
+	width: 100%;
+}
+.lbl {
+	width: 40%;
+}
+label.error {
+	left: 40%;
+}
+.privacy_title {
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 1% 0;
+}
+.privacy_text {
+	padding: 4% 0;
+	font-size: 1.1em;
+}
+.change_phone_row:after,
+.change_phone_wrapper ul:after,
+.tab_content:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;	
+}
+@media screen and (max-width:1181px)
+{
+	.lbl {
+		width: 45%;
+	}
+	.change_phone_action {
+		padding: 3% 0 3% 45%;
+	}
+	label.error {
+		left: 45%;
+	}
+}
+@media screen and (max-width:965px)
+{
+	.lbl {
+		width: 50%;
+	}
+	.change_phone_action {
+		padding: 3% 0 3% 50%;
+	}
+	label.error {
+		left: 50%;
+	}
+	.default {
+		width: 48%;
+	}
+}
+@media screen and (max-width:832px)
+{
+	.tab_content form {	
+		width: 100%;
+	}
+	.privacy_content {
+		width: 100%;
+		border: none;
+	}
+}

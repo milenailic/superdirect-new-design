@@ -1,0 +1,247 @@
+.paying_wrapper {	
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.paying_title {
+	font-size: 2.7em;
+	font-weight: bold;
+	padding: 3% 0;
+	width: 100%;
+}
+.paying_text {
+	padding-bottom: 3%;
+	font-size: 1.2em;
+}
+.paying_content {
+	width: 100%;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border: 1px #8cd2e3 solid;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.paying_data {
+	border-bottom: 1px #8cd2e3 solid;
+	padding: 2%;
+	width: 96%;
+}
+.paying_content_header {
+	background: #eef8fb;
+}
+.total {
+	font-weight: bold;
+	font-size: 1.8em;
+	text-align: right;
+}
+.total_price {
+	white-space: nowrap;
+}
+.paying_content_title {
+	font-weight: bold;
+	font-size: 1.8em;
+	padding: 1% 0 2% 0;
+}
+.paying_row {
+	padding: 1% 0;
+	position: relative;
+}
+.standard_lbl {
+	float: left;
+	width: 23%;
+	padding: 0.5% 2% 0.5% 0;
+	text-align: left;
+	color: #000;
+	min-height: 22px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	font-weight: bold;
+}
+.date_box {
+	float: left;
+	position: relative;
+	width: 77%;
+}
+.default {
+	width: 30%;
+	float: left;
+}
+.radio_date {
+    position: absolute;
+    left: -9999px;
+    float: left;
+}
+.select_wrepper {
+	width: 40%;
+	position: relative;
+	float: left;
+}
+.select_wrepper select {
+	width: 100%;
+}
+.pickup_address {
+	color: #666666;
+	padding-left: 25%;
+}
+.label_date {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	font-size: 2.5em;
+	line-height: 0.9em;
+	cursor: pointer;
+	display:inline-block;
+	border: 1px #005c9a solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0  1% 1% 0;
+	font-weight: bold;
+	float: left;
+	width: 11%;
+	padding: 1.5% 0;
+}
+.label_date * {
+    float: left;
+    font-size: 0.5em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.label_date sup {
+	font-weight: normal;
+}
+.date_button_lbl_unchecked {
+	color:#00a5c9;
+	background: #FFF;
+}
+.date_button_lbl_checked {
+	color:#FFF;
+	background: #00a5c9;
+}
+.paying_action {
+	padding: 3.5% 0 3.5% 25%;
+}
+.btn_blue_big {
+	border: 1px #005c9a solid;
+}
+.paying_row:after,
+.paying_row .date_box:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;	
+}
+@media screen and (max-width:1105px)
+{
+	.standard_lbl {
+		width: 25%;
+	}
+	.pickup_address {
+		padding-left: 27%;
+	}
+	.paying_action {
+		padding: 3.5% 0 3.5% 27%;
+	}
+	.date_box {
+	   width: 75%;
+	}
+	.label_date {
+		width: 13%;
+	}
+}
+@media screen and (max-width:1040px)
+{
+	.standard_lbl {
+		width: 27%;
+	}
+	.pickup_address {
+		padding-left: 29%;
+	}
+	.paying_action {
+		padding: 3.5% 0 3.5% 29%;
+	}
+	.date_box {
+	   width: 73%;
+	}
+	.label_date {
+		width: 16%;
+	}
+}
+@media screen and (max-width:983px)
+{
+	.standard_lbl {
+		width: 29%;
+	}
+	.pickup_address {
+		padding-left: 31%;
+	}
+	.paying_action {
+		padding: 3.5% 0 3.5% 31%;
+	}
+	.date_box {
+	   width: 71%;
+	}
+	.label_date {
+		width: 20%;
+	}
+}
+@media screen and (max-width:940px)
+{
+	.standard_lbl {
+		width: 31%;
+	}
+	.pickup_address {
+		padding-left: 33%;
+	}
+	.paying_action {
+		padding: 3.5% 0 3.5% 33%;
+	}
+	.date_box {
+	   width: 69%;
+	}
+	.select_wrepper {
+		width: 50%;
+	}
+	.label_date {
+		width: 22%;
+	}
+}
+@media screen and (max-width:901px)
+{
+	.standard_lbl {
+		width: 90%;
+	}
+	.pickup_address {
+		padding-left: 2%;
+	}
+	.paying_action {
+		padding: 3.5% 0 3.5% 2%;
+	}
+	.date_box {
+	   width: 100%;
+	}
+	.select_wrepper {
+		width: 50%;
+	}
+	.label_date {
+		width: 26%;
+	}
+}
+@media screen and (max-width:480px)
+{
+	.btn_blue_big {
+		 font-size: 1.6em;
+	}
+}

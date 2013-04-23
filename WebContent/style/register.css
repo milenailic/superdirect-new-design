@@ -1,0 +1,232 @@
+.register_wrapper {	
+	width:100%;
+	float:left;
+	margin-top:20px;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.register_wrapper a {
+	color: #1aa5c8;
+	text-decoration: none;
+}
+.register_title {
+	font-size: 2.7em;
+	font-weight: bold;
+	padding: 3% 0;
+	width: 100%;
+}
+.register_form_content,
+.register_sms_content {
+	float: left;
+	width: 50%;
+	border: 1px #8cd2e3 solid;
+	background-color: #eef8fb;	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	padding: 3%;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.register_sms_content {
+	width: 100%;
+}
+.register_row {
+	padding: 3px 0 15px 0;
+	position: relative;
+	width: 100%;
+}
+.register_row div {
+	float: left;
+	width: 100%;
+}
+.default {
+	width: 97%;
+}
+.register_sms_content .default {
+	width: 98%;
+	margin-right: 1%;
+}
+.register_form_content img {
+	width: auto;
+}
+.privacy_content {
+	float: left;
+	width: 50%;
+	padding: 2% 5%;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.privacy_title {
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 1% 0;
+}
+.privacy_text {
+	padding: 4% 0;
+	font-size: 1.1em;
+}
+.register_form_content .lbl,
+.register_sms_content .lbl  {
+	display: block;
+	font-weight: bold;
+	padding: 2% 0;
+	font-size: 1.2em;
+	text-align: left;
+	width: 100%;
+}
+.smaller {
+	width: 65%;
+}
+.agree_row {
+	padding: 5% 0;
+}
+.agree_row .lbl {
+	width: 95%;
+	font-weight: normal;
+	padding: 4px;
+}
+.agree_row .default {
+	width: auto;
+	height: auto;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+	padding: 0;
+	margin: 5px 0 0 0;
+}
+.birthdate_row img {
+	margin-left: -26px;
+	margin-top: 3px;
+	float: left;
+}
+.btn_blue {
+	border: 1px #005c9a solid;
+	float: right;
+}
+.register_sms_content .btn_blue {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.register_sms_text {
+	padding-bottom: 3%;
+	font-size: 1.2em;
+}
+.register_sms_row {
+	padding: 0 0 18px 0;
+	position: relative;
+	float: left;
+	width: 15%;
+	margin-bottom: 8px;
+}
+.register_form_content:after,
+.register_sms_content:after,
+.agree_row:after,
+.birthdate_row:after,
+.register_row:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;	
+}
+@media screen and (max-width:1766px)
+{
+	.register_sms_row {		
+		width: 20%;		
+    }	
+}
+@media screen and (max-width:1545px)
+{
+	.register_sms_row {		
+		width: 25%;		
+    }	
+}
+@media screen and (max-width:1163px){
+	.privacy_content {
+		width: 40%;
+	}
+	.register_form_content {
+    	width: 60%;
+    }
+}
+@media screen and (max-width:1115px)
+{
+	.register_sms_row {		
+		width: 30%;		
+    }	
+}
+@media screen and (max-width:1017px){
+	.privacy_content {
+		width: 35%;
+	}
+	.register_form_content {
+    	width: 65%;
+    	padding: 3% 2%;
+    }
+}
+@media screen and (max-width:980px)
+{
+	.register_sms_row {		
+		width: 35%;		
+    }	
+}
+@media screen and (max-width:887px)
+{
+	.register_sms_row {		
+		width: 40%;		
+    }	
+    .agree_row .lbl {
+		width: 94%;
+	}
+}
+@media screen and (max-width:830px)
+{
+	.register_sms_row {		
+		width: 45%;		
+    }	
+}
+@media screen and (max-width:568px)
+{
+	.register_wrapper
+	{
+		padding:0 2%;
+	}
+	.privacy_content {	
+		padding: 2% 3%;	
+	}
+}
+@media screen and (max-width:460px)
+{
+	.register_form_content {
+		width: 100%;
+	}
+	.privacy_content {
+		width: 100%;
+	}
+}
+@media screen and (max-width:430px)
+{
+	.register_sms_row {		
+		width: 50%;		
+    }	
+}
+@media screen and (max-width:360px)
+{
+	.register_sms_row {		
+		width: 55%;		
+    }	
+}
+@media screen and (max-width:325px)
+{
+	.register_sms_row {		
+		width: 65%;		
+    }	
+}
